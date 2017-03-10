@@ -10,6 +10,7 @@ class Ball{
     pos.y = 0;
     vel.x = random(-.2,.2);
     vel.y = 0;
+    fill(random(0,255),random(0,255),random(0,255));
   }
   void update(){
     f = createFont("Arial" , 20, true);
@@ -19,7 +20,7 @@ class Ball{
     text(c, width-40, 40);
   }
   void exist(){
-    fill(222,33,5);
+    
     ellipse(pos.x, pos.y, 40, 40);
   }
   void edges(){
