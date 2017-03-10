@@ -19,7 +19,7 @@ class Ball{
     text(c, width-40, 40);
   }
   void exist(){
-    stroke(255);
+    fill(222,33,5);
     ellipse(pos.x, pos.y, 40, 40);
   }
   void edges(){

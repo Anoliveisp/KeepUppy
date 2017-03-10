@@ -6,6 +6,7 @@ void setup(){
   size(800, 600);
   for (int i = 0; i<count; i++){
     b[i] = new Ball();
+    
   }
 }
 void draw(){
@@ -20,7 +21,7 @@ void draw(){
 void mousePressed(){
   for (int i = 0; i<count; i++){
     b[i].clicked();
-    if(b[i].c == 25){
+    if(b[i].c == 2){
       count+=1;
       setup();
   }
