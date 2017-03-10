@@ -45,7 +45,4 @@ class Ball{
     vel.x = vel.x-1;
     }
   }
-
-
-
 }
